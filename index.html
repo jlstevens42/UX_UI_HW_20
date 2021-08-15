@@ -1,10 +1,336 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>UI/UX Homework 20</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css" type="text/css">
+    <title>UI/UX Homework 20</title>
 </head>
 <body>
+    <section class="navigation_navs">
+        <ul class="nav justify-content-end" id="navbar_scroll">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Research</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Definition & Ideation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Wireframing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Prototyping</a>
+            </li>
+        </ul>
+    </section>
+    <!-- HERO -->
+    <section style="height:500px;">
+      <div class="jumbotron jumbotron-fluid hero_jumbotron h-100">
+          <div class="container-fluid h-100">
+            <h1 class="display-4 section_font">Happy Hippie Foundation Redesign</h1>
+            <p class="lead">Responsive Website Solution for a Nonprofit Organization</p>
+          </div>
+      </div>
+    </section>
+    <!-- OVERVIEW -->
+    <section>
+      <div class="jumbotron jumbotron-fluid overview_jumbotron">
+        <div class="container">
+          <h1 class="display-4">Overview</h1>
+          <p class="lead">The Happy Hippie Foundation, a nonprofit founded by singer and actress Miley Cyrus in 2014, rallies young people to engage in systematic change and fight injustices in our world, specifically focusing on LGBTQ+ youth, homeless youth, and other vulnerable populations. Through program areas like prevention, crisis response, support services, and public education, Happy Hippie advocates for at-risk and disproportionately affected populations, such as youth aging out of foster care, people living with HIV/AIDS, youth in conflict zones, and people affected by crisis situations.</p>
+        </div>
+        <div class="container">
+          <h1 class="display-4">Problem</h1>
+          <p class="lead">Happy Hippie's website lacks sufficient information and credibility that potential donors seek in order to feel confident making a donation through the nonprofit.</p>
+        </div>
+        <div class="container">
+          <h1 class="display-4">Solution</h1>
+          <p class="lead">A redesign of the user interface and information architecture that improves user perception and builds trustworthiness in order to increase donation revenue and expand Happy Hippie's impact</p>
+        </div>
+        <div class="container">
+          <h1 class="display-4">Context</h1>
+          <p class="lead">Team: Three UI/UX DesignersDuration: Three WeeksScope: High-fidelity, clickable prototype for at least one modality</p>
+        </div>
+        <div class="container">
+          <h1 class="display-4">Tools</h1>
+          <p class="lead">Figma, InVision, Miro, Giphy Capture</p>
+        </div>
+        <div class="container">
+          <h1 class="display-4">Role</h1>
+          <p class="lead">Specifically, I took the lead on the following areas:</p>
+          <ul>
+            <li class="lead">Project Management</li>
+            <li class="lead">Heuristic Evaluations for Mobile and Desktop</li>
+            <li class="lead">User Flow</li>
+            <li class="lead">User Insight and Problem Statements</li>
+            <li class="lead">Typography</li>
+            <li class="lead">Color Palette</li>
+            <li class="lead">Mobile UI Design - Homepage, Hero Animation, Navigation, Footer, Our Work, FAQs, Contact Us</li>
+            <li class="lead">Mobile Prototyping</li>
+            <li class="lead">Desktop UI Design</li>
+            <li class="lead">Desktop Prototyping</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
+    <!-- DEFINITION & IDEATION -->
+    <section>
+      <div class="jumbotron jumbotron-fluid definition_jumbotron">
+        <div class="container">
+          <h1 class="display-4 section_font">DEFINITION & IDEATION</h1>
+        </div>
+      </div>
+      <div class="accordion definition_accordian" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                  <button class="btn btn-link card_font" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Interviews
+                  </button>
+                </h2>
+              </div>
+          
+              <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                    We developed a user research plan consisting of three main tasks to observe as the user navigates the site, noting pain points, areas of confusion, and any comments or questions. We chose to observe users interacting with the existing site to identify problem areas requiring the most improvements and help us understand how to most effectively enhance the user experience through our redesign. Each team member conducted two virtual 1x1 interviews after which we analyzed our collective findings.
+
+                    Tasks:
+                    
+                    What is the purpose of this nonprofit organization?
+                    
+                    What do the donations benefit, and how would you make a donation on this website?
+                    
+                    In what ways can you connect with this organization?
+                    
+                    Key Takeaways:
+                    
+                    Participants felt the content did not clearly communicate what the organization does
+                    
+                    Participants felt skeptical of the organization and questioned its credibility due to the lack of information on community impact
+                    
+                    Participants expressed they would be hesitant or unwilling to make a donation because they could not establish trust
+                    
+                    Navigating the site caused confusion among participants who felt the sections were not clearly named or lacked the relevant information they expected
+                    
+                    Despite finding the bright colors and funky patterns fun and intriguing, participants felt this reinforced their concerns regarding the credibility and professionalism of the organization
+                </div>
+                <img src="img/interviews.png" class="card-img-top" alt="Interview Tasks">
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed card_font" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Affinity Diagram
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                    After each team member conducted two user tests, we combined and organized our data from the interview process into four sections in order to synthesize our research and determine key areas of improvement based on user insights. The categories were as follows:
+
+                    Confusion
+                    
+                    Wants
+                    
+                    Actions
+                    
+                    Likes
+                </div>
+                <img src="img/affinitydiagram.png" class="card-img-top" alt="Affinity Diagram">
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed card_font" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Competitor Analysis (or as we like to call it, Ally Analysis)
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                    We analyzed four nonprofit organizations: Gender Spectrum, True Colors United, The Trevor Project, and My Friend's Place. Specifically, we wanted to assess how these organizations' compare in regard to navigation, content, and professionalism and how we might apply what we learn to improve Happy Hippie.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingFour">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed card_font" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      Persona
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Based on the interviews and research performed, we created our persona, Serena Owens. We referred to this user throughout the entire redesign process.
+                  </div>
+                  <img src="img/persona.png" class="card-img-top" alt="Persona">
+                </div>
+              </div>
+          </div>
+    </section>
+    <section>
+        <div class="jumbotron jumbotron-fluid problem_jumbotron">
+          <div class="container">
+            <h1 class="display-4 font-italic">User Insight</h1>
+            <p class="lead">You can write here as much as During 1x1 user interviews and observations, we discovered that the website design lacks the credibility needed for users to trust and feel confident in making donations via the nonprofit. Therefore, we believe that users would be more inclined to donate and get involved if they trusted the website, and we might be able to help if we analyze and redesign the UI.We might do this by adding more detailed information to help users better understand the nonprofit and additional images to help users visualize the work performed. Doing this will help communicate the legitimacy of the organization and the importance of the mission, resulting in increased donation volume and broader community impact.</p>
+            <h1 class="display-4 font-italic">Problem</h1>
+            <p class="lead">Serena, a busy young professional and proud bisexual woman, needs a platform for educational resources and channels to give back to vulnerable populations, such as homeless youth and LGBTQ+ youth, in order to make a meaningful impact and positive change.</p>
+          </div>
+        </div>
+    </section>
+    <section class="ideation_cards">
+        <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-uppercase">I Like, I Wish, What If</h5>
+              <p class="card-text">We utilized the "I Like, I Wish, What If" brainstorming method to leverage collective group thinking and quickly generate ideas through the lens of the present, future, and distant future. To further synthesize our ideation, we categorized our ideas into the following categories: visual design, information architecture, involvement, credibility, resources, and flexibility. Using a dot-voting system, we focused in on the features we felt would be most impactful to include in our Feature Prioritization Matrix (below).</p>
+            </div>
+            <img src="img/ideation.png" class="card-img-top card_image" alt="I Like, I Wish, What If">
+        </div>
+        <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-uppercase">Feature Prioritization</h5>
+              <p class="card-text">We sorted the ideas voted on during the "I Like, I Wish, What If" brainstorming session using a Feature Prioritization Matrix as a tool for analyzing the added value and required effort of the proposed ideas. This exercise helped us identify the most important problems to solve first and plan our redesign accordingly.</p>
+            </div>
+            <img src="img/featurematrix.png" class="card-img-top card_image" alt="Feature Matrix">
+        </div>
+        <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-uppercase">Storyboard</h5>
+              <p class="card-text">We created a storyboard to establish a reliable narrative and visualize how our persona, Serena, will interact with the Happy Hippie website. Albeit a quick and simple, this was a valuable group exercise for creating a shared vision for the redesign.</p>
+            </div>
+            <img src="img/hh_storyboard.png" class="card-img-top  card_image" alt="Storyboard">
+        </div>
+        <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-uppercase">User Flow</h5>
+              <p class="card-text">For our user flow, we focused on “The Happy Path”. 
+                We wanted it to be simple, concise, and easy to follow, as highlighted through the storyboard (above).</p>
+            </div>
+            <img src="img/hh_userflow.png" class="card-img-top" alt="User Flow">
+        </div>
+        <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-uppercase">Heuristic Evaluation & Annotations</h5>
+              <p class="card-text">Through heuristic evaluation and annotations, I analyzed the existing design for both mobile and desktop, noting heuristic usability issues, accessibility issues, and pain points noted during user testing. I also noted potential solutions to prepare for the redesign process.
+
+                Key Takeaways:
+                
+                The hero section consists of a large, static image that lacks the organization's name and purpose. This important, highly-viewed space must set the tone for the website, thus it should be redesigned to more effectively engage users and communicate the essence of the organization.
+                
+                The information architecture currently requires users to scroll and dig through the page to find essential details about the organization. The call to action of the site is making a donation, which falls toward the middle of the page. The site should be reorganized to ensure the most important content is easily accessible and located at the top of the page.
+                
+                The existing navigation can be easily overlooked and the footer consists only of site terms and conditions that do not add value to users. The redesigned navigation should consist of a clear, easily recognizable header and footer to improve the usability.</p>
+            </div>
+            <img src="img/annotations.png" class="card-img-top card_image" alt="Heuristic Evaluation & Annotations">
+        </div>
+        <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-uppercase">Sitemap</h5>
+              <p class="card-text">During the research phase, we determined the website lacks sufficient information, therefore we needed to add more content and images to communicate Happy Hippie’s impact and establish credibility. 
+
+                The original site is formatted as a single page. However, we decided to use a multi-page format for our redesign to make the increased volume of information more digestible and avoid overwhelming our users.
+                
+                We created a sitemap to organize the original and added content into clear groupings.</p>
+            </div>
+            <img src="img/sitemap.png" class="card-img-top  card_image" alt="Sitemap">
+        </div>
+    </section>
+    
+    <!-- DESIGN PROCESS -->
+    <section>
+        <div class="jumbotron jumbotron-fluid design_jumbotron">
+          <div class="container">
+            <h1 class="display-4 section_font">DESIGN PROCESS</h1>
+            <p class="lead">We agreed to redesign the mobile website for Happy Hippie because we wanted to follow the mobile-first design approach in order to address the restrictions of the smaller screen and ensure an optimal experience for our users.</p>
+            <p class="lead">Using Whimsical, I created low- and mid-fidelity wireframes involved in our persona Serena's user flow. I discussed the below designs with my team and agreed to use as the basis for future iterations, also incorporating aspects from another teammate's Donate and Get Involved wireframes. We decided to divide and conquer to complete the high-fidelity wireframes in Figma, on which we would perform user testing. I wanted to design the homepage, specifically to tackle the challenge of creating an animation for the hero section that effectively communicates Happy Hippie's mission and spirit, as noted as an opportunity for improvement in our heuristic evaluation and annotations section. Another weakness I wanted to address was the site navigation, so I redesigned the header and hamburger menu and added a footer. Additionally, one of my teammates experienced unforeseen time constraints, so I assumed responsibility for the Our Work section to keep our momentum moving. As user testing revealed major confusion surrounding the work performed by Happy Hippie and unwillingness to donate to an "untrustworthy" site, I added significantly more information and images to this page.</p>
+          </div>
+        </div>
+    </section>
+    <section class="design_accordian">
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingFive">
+                <h2 class="mb-0">
+                  <button class="btn btn-link card_font" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                    Low-Fidelity
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                <div class="card-body">
+                    Using Whimsical, I created low- and mid-fidelity wireframes involved in our persona Serena's user flow. I discussed the below designs with my team and agreed to use as the basis for future iterations, also incorporating aspects from another teammate's Donate and Get Involved wireframes.
+                </div>
+                <img src="img/lowfidelity.png" class="mr-3" alt="Low Fidelity">
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingSix">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed card_font" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                    Mid-Fidelity
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                <div class="card-body">
+                    Using Whimsical, I created low- and mid-fidelity wireframes involved in our persona Serena's user flow. I discussed the below designs with my team and agreed to use as the basis for future iterations, also incorporating aspects from another teammate's Donate and Get Involved wireframes.
+                </div>
+                <img src="img/midfidelity.png" class="mr-3" alt="Mid Fidelity">
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingSeven">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed card_font" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                    High-Fidelity
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+                <div class="card-body">
+                    We decided to divide and conquer to complete the high-fidelity wireframes in Figma, on which we would perform user testing.
+
+                    I wanted to design the homepage, specifically to tackle the challenge of creating an animation for the hero section that effectively communicates Happy Hippie's mission and spirit, as noted as an opportunity for improvement in our heuristic evaluation and annotations section.
+                    
+                    Another weakness I wanted to address was the site navigation, so I redesigned the header and hamburger menu and added a footer.
+                    
+                    Additionally, one of my teammates experienced unforeseen time constraints, so I assumed responsibility for the Our Work section to keep our momentum moving. As user testing revealed major confusion surrounding the work performed by Happy Hippie and unwillingness to donate to an "untrustworthy" site, I added significantly more information and images to this page.
+                </div>
+                <img src="img/highfidelity.png" class="mr-3" alt="High Fidelity">
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <!-- FINAL -->
+    <section>
+      <div class="jumbotron jumbotron-fluid prototype_jumbotron">
+        <div class="container prototype_container">
+          <h1 class="display-4  section_font">PROTOTYPE</h1>
+          <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="500" height="1000" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FIuUlha6tlJQLxqor3xP9f7%2FHappy-Hippie-Redesign-JLS%3Fpage-id%3D216%253A728%26node-id%3D216%253A731" allowfullscreen></iframe>
+        </div>
+      </div>
+  </section>
+  <section>
+    <div class="jumbotron jumbotron-fluid conclusion_jumbotron">
+      <div class="container">
+        <h1 class="display-4  section_font">FINAL THOUGHTS</h1>
+        <p class="lead">As an avid support of the Happy Hippie Foundation and its inspiring mission, I felt above average pressure to succeed in this redesign. I wanted to stay true to the Happy Hippie voice that I admire even in making the more dramatic changes, and I believe we accomplished that goal in the mobile version. Next up: desktop!</p>
+        <p class="lead font-weight-bold text-uppercase">Key Takeaways:</p>
+        <ul>
+          <li class="lead">Pay close attention to negative space. Especially when incorporating such bold colors and patterns, negative space is essential for creating a clean, elevated design that does not overwhelm users.</li>
+          <li class="lead">Consistency is key! I established color and text styles within Figma for the proposed color palette and typography prior to designing our high-fidelity wireframes. Using the set color and text styles when designing wireframes individually allowed for greater consistency overall and fewer changes needed to be made when comparing our wireframes as a group. In the future, I would also like to establish spacing guidelines to follow as a team to further streamline the process.</li>
+          <li class="lead">More user testing would allow for more meaningful iterations. Due to the time constraints, we performed two rounds of user testing: one on the original site and one on our high-fidelity prototype. We would have greatly benefitted from testing our low-fidelity prototype to gain valuable user insight before beginning the time-consuming iteration process that brought us to our high-fidelity user testing phase.</li>
+        </ul>
+      </div>
+    </div>
+</section>
 </body> 
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </html>

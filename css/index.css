@@ -1,1 +1,64 @@
 /* Homework 20 CSS */
+.hero_jumbotron {
+    background-color:white;
+    background-image: url(../img/hhimg_hero.png);
+    background-position:right;
+    background-size:contain;
+    background-repeat:no-repeat;
+    padding:0 !important;
+    margin:5% 15% 5% 10%;
+}
+.hero_jumbotron div {
+    max-width:70%;
+    float:left;
+}
+.overview_jumbotron {
+    background-color: #96037D;
+    color:white;
+    margin-bottom:0;
+}
+.overview_jumbotron h1 {
+    font-weight:500;
+}
+.definition_jumbotron, .design_jumbotron, .conclusion_jumbotron {
+    background-color: #3E37FB;
+    height:fit-content;
+    color:white;
+    margin-bottom:0;
+    margin-top:0;
+}
+.definition_jumbotron, .design_jumbotron, .conclusion_jumbotron {
+    background-image: url(../img/background_blue_cropped.png);
+    background-size:cover;
+    height:fit-content;
+    color:white;
+}
+.problem_jumbotron {
+    background-image: url(../img/HH_Background_YellowGreen.png);
+}
+.prototype_jumbotron {
+    background-color:white;
+}
+.prototype_container {
+    margin:0 auto !important;
+    padding:0% 15%;
+}
+.card-header {
+    height:250px;
+    background-color:#E7E6FE;
+    padding:75px 12px;
+}
+.card_font {
+    font-size: 3.5rem !important;
+    font-weight: 500 !important;
+    line-height: 1.2 !important;
+    margin:auto;
+}
+.section_font {
+    font-size:100px !important; 
+    font-weight:900 !important;
+}
+.card_image {
+    width:75%;
+    margin:auto;
+}
